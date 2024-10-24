@@ -15,12 +15,10 @@ python main.py -v r
 ```
 
 ### To run using the images in Test folder.
-Warning: Make sure that you don't add too many images for this purpose as it will open a new window for each image. You can modify the code to change this.
-
+It takes one extra argument that is image file name youwant to open.
 ```bash
-python main.py -i
+python main.py -i b test.jpg
 ```
-
 
 ## Contributing
 
