@@ -1,8 +1,6 @@
 # Color Detection
 Color Detection using OpenCV with the help of HSV color format. When identify a color within the range of the color hsv value.
 
-***
-
 ## Usage
 Open terminal to run the main file. After entering all the arguments, enter the final argument as color
 "r" ,"g", "b".
