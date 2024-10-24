@@ -3,12 +3,11 @@ import cv2
 import sys
 
 if __name__ == "__main__":
-    mode = sys.argv[3]
-    color = sys.argv[1]
-    i = sys.argv[2]
-
+    mode = sys.argv[1]
+    color = sys.argv[2]
+    i = sys.argv[3]
     if mode.lower() == '-i':
-        img = cv2.imread(f"../test/{i}")
+        img = cv2.imread(f"tests/{i}")
         detector(img,color)
         cv2.imshow(i,img)
         if cv2.waitKey(0):
